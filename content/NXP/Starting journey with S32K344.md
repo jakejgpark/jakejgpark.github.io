@@ -8,7 +8,7 @@ Recently, I personally purchased the S32K344MINI-EVB, which is arguably the most
 - **Memory:** 16kB I-Cache, 16kB D-Cache, 4MB PFlash, 128kB DFlash, and 512kB of SRAM (including 192kB of TCM).
 - **I/O Capabilities:** Capable of interfacing with motors, pumps, lamps, and sensors using CAN, LIN, PWM, and ADC.
 - **Communication**: 100 Mbps AVB/TSN Ethernet
-![[Pasted image 20260421213146.png]]
+![[s32k344-evb.png.png]]
 # Overall Impression
 
 - **Memory Footprint:** Generally, the memory capacity is quite limited, which clearly defines its intended use case.
