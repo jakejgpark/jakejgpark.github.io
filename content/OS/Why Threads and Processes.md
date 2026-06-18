@@ -5,7 +5,7 @@
 
 ## Why threads and processes?
 - **Background:** Relying solely on processes to divide tasks is heavy.
-	- A process context switch: It incurs massive overhead because it requires completely swapping the virtual memory mappings.
+	- A process [[Understanding Context Switch, Processes vs. Threads|context switch]]: It incurs massive overhead because it requires completely swapping the virtual memory mappings.
 	- sharing data between processes: It necessitates passing through complex Inter-Process Communication (IPC) mechanisms.
 - **Solution:** Consolidate the heavy resource management (memory, files) into a single container, and split off multiple lightweight execution units. This is why modern architectures separate the **Process** (the owner of resources) from the **Thread** (the unit of execution).
 
