@@ -1,5 +1,5 @@
 ---
-title: C/C++ volatile - When Compiler Optimization Works Against You
+title: volatile - When Compiler Optimization Works Against You
 date: 2026-06-23
 tags:
   - volatile
