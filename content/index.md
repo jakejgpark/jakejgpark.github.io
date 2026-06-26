@@ -15,7 +15,7 @@
 #### Schaeffler (formerly Vitesco/Continental) | BSW & System Engineer
 Aug 2018 – Present
 
-Basic Software Engineer (May 2022 – Present)
+Senior Basic Software Engineer (May 2022 – Present)
 - Developed, integrated, and validated Input/Output Interface software solutions for ECU (Engine Control Unit) and VPC (Vehicle Platform Controller)
 - Led full-cycle BSW development, including I/O configuration setup, I/O Hardware Abstraction Layer design & implementation, driver integration, and validation in compliance with ASPICE Level 2 processes (SWE.1 – SWE.6), covering requirements elicitation, architecture design, implementation, integration, verification, and validation
 - Developed and optimized BSW modules such as MCAL and Complex Drivers in accordance with customer requirements, ensuring seamless integration with application layers.
