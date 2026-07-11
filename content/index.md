@@ -1,5 +1,5 @@
 ---
-title: Welcome to JG's Tech Archive
+title: Welcome to JG's Embedded Garden.
 ---
 ## Introduction
 Hello! I’m JG, and this is my digital garden. 
