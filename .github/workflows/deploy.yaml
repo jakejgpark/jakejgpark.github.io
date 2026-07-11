@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - v5  # 종근 님의 메인 브랜치
+  workflow_dispatch: # 수동으로도 배포 버튼을 누를 수 있게 추가
 
 permissions:
   contents: read
@@ -23,13 +24,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Node.js 세팅 (버전 22로 업그레이드! 🚀)
-        uses: actions/setup-node@v4
+      - name: Node.js 세팅
+        uses: actions/setup-node@v5
         with:
-          node-version: 22  # <--- 드디어 22버전 장착!
+          node-version: 22
 
       - name: 패키지 설치
         run: npm ci
+
+      - name: 🧩 쿼츠 플러그인 설치
+        run: npx quartz plugin install
 
       - name: 🚀 쿼츠 빌드 (웹사이트 굽기)
         run: npx quartz build
