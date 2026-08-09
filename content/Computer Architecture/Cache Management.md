@@ -1,6 +1,6 @@
 ---
 title: Cache Management Entities and Roles
-date: 2026-07-11
+date: 2026-08-09
 tags:
   - ComputerArchitecture
   - MemoryHierarchy
